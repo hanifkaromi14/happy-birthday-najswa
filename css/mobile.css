@@ -1,0 +1,310 @@
+/* =================================
+   TABLET
+================================= */
+
+@media (max-width: 1024px) {
+
+    .hero h1 {
+        font-size: 4rem;
+    }
+
+    .hero h2 {
+        font-size: 1.7rem;
+    }
+
+    .story-text {
+        font-size: 1.7rem;
+    }
+
+    .ending h1 {
+        font-size: 4rem;
+    }
+
+    .hero-tulip {
+        width: 420px;
+    }
+
+    .ending-tulip {
+        width: 450px;
+    }
+
+}
+
+/* =================================
+   IPHONE 14 / MOBILE
+================================= */
+
+@media (max-width: 768px) {
+
+    .hero {
+
+        padding: 20px;
+    }
+
+    .hero-content {
+
+        width: 100%;
+
+        padding: 30px 25px;
+
+        border-radius: 25px;
+    }
+
+    .hero-date {
+
+        font-size: .75rem;
+
+        letter-spacing: 3px;
+    }
+
+    .hero h1 {
+
+        font-size: 2.8rem;
+
+        line-height: 1.1;
+    }
+
+    .hero h2 {
+
+        font-size: 1.3rem;
+
+        margin-top: 10px;
+    }
+
+    #typingHero {
+
+        font-size: .95rem;
+
+        margin-top: 18px;
+    }
+
+    #giftBtn {
+
+        width: 100%;
+
+        padding: 15px;
+
+        font-size: 1rem;
+
+        margin-top: 25px;
+    }
+
+    /* HERO TULIP */
+
+    .hero-tulip {
+
+        width: 280px;
+
+        opacity: .08;
+    }
+
+    /* INTRO */
+
+    .intro {
+
+        padding: 90px 25px;
+    }
+
+    .intro h2 {
+
+        font-size: 2.2rem;
+    }
+
+    .intro p {
+
+        font-size: 1rem;
+
+        line-height: 1.9;
+    }
+
+    /* STORY */
+
+    .story {
+
+        background-attachment: scroll;
+    }
+
+    .story-text {
+
+        font-size: 1.25rem;
+
+        line-height: 1.8;
+
+        padding: 25px;
+
+        max-width: 90%;
+    }
+
+    /* VIDEO */
+
+    .video-section {
+
+        padding: 90px 20px;
+    }
+
+    .video-section h2 {
+
+        font-size: 2rem;
+    }
+
+    .video-section p {
+
+        font-size: .95rem;
+    }
+
+    .video-section video {
+
+        border-radius: 20px;
+    }
+
+    /* LETTER */
+
+    .letter {
+
+        padding: 90px 20px;
+    }
+
+    .letter-box {
+
+        padding: 30px;
+
+        border-radius: 25px;
+    }
+
+    .letter-box h2 {
+
+        font-size: 2rem;
+    }
+
+    .letter-box p {
+
+        font-size: .95rem;
+
+        line-height: 2;
+    }
+
+    /* ENDING */
+
+    .ending {
+
+        padding: 20px;
+    }
+
+    .ending h1 {
+
+        font-size: 2.4rem;
+
+        line-height: 1.3;
+    }
+
+    .ending-small {
+
+        font-size: .7rem;
+    }
+
+    .ending-name {
+
+        font-size: .95rem;
+    }
+
+    .ending-tulip {
+
+        width: 300px;
+    }
+
+    /* MUSIC */
+
+    #musicBtn {
+
+        width: 50px;
+
+        height: 50px;
+
+        right: 15px;
+
+        bottom: 15px;
+    }
+
+}
+
+/* =================================
+   SMALL PHONE
+================================= */
+
+@media (max-width: 480px) {
+
+    .hero h1 {
+
+        font-size: 2.3rem;
+    }
+
+    .hero h2 {
+
+        font-size: 1.1rem;
+    }
+
+    .hero-tulip {
+
+        width: 220px;
+    }
+
+    .story-text {
+
+        font-size: 1.1rem;
+    }
+
+    .intro h2 {
+
+        font-size: 1.9rem;
+    }
+
+    .video-section h2 {
+
+        font-size: 1.7rem;
+    }
+
+    .letter-box h2 {
+
+        font-size: 1.8rem;
+    }
+
+    .ending h1 {
+
+        font-size: 2rem;
+    }
+
+    .ending-tulip {
+
+        width: 250px;
+    }
+
+}
+
+/* =================================
+   LANDSCAPE PHONE
+================================= */
+
+@media (max-height: 500px) {
+
+    .hero {
+
+        height: auto;
+
+        padding: 80px 20px;
+    }
+
+    .story {
+
+        height: auto;
+
+        padding: 120px 20px;
+    }
+
+    .ending {
+
+        height: auto;
+
+        padding: 120px 20px;
+    }
+
+}

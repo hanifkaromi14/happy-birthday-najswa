@@ -1,0 +1,352 @@
+/* =========================
+   HERO TULIP FLOAT
+========================= */
+
+.hero-tulip {
+
+    animation:
+        heroFloat 8s ease-in-out infinite;
+}
+
+@keyframes heroFloat {
+
+    0% {
+        transform:
+            translateY(0px) rotate(0deg);
+    }
+
+    50% {
+        transform:
+            translateY(-25px) rotate(2deg);
+    }
+
+    100% {
+        transform:
+            translateY(0px) rotate(0deg);
+    }
+
+}
+
+/* =========================
+   ENDING TULIP FLOAT
+========================= */
+
+.ending-tulip {
+
+    animation:
+        endingFloat 10s ease-in-out infinite;
+}
+
+@keyframes endingFloat {
+
+    0% {
+        transform:
+            translateY(0px);
+    }
+
+    50% {
+        transform:
+            translateY(-30px);
+    }
+
+    100% {
+        transform:
+            translateY(0px);
+    }
+
+}
+
+/* =========================
+   REVEAL SCROLL
+========================= */
+
+.reveal {
+
+    opacity: 0;
+
+    transform:
+        translateY(70px);
+
+    transition:
+        all 1.2s ease;
+}
+
+.reveal.active {
+
+    opacity: 1;
+
+    transform:
+        translateY(0);
+}
+
+/* =========================
+   STORY PARALLAX FEEL
+========================= */
+
+.story {
+
+    background-attachment: fixed;
+}
+
+/* =========================
+   BUTTON GLOW
+========================= */
+
+#giftBtn {
+
+    animation:
+        buttonGlow 3s ease infinite;
+}
+
+@keyframes buttonGlow {
+
+    0% {
+
+        box-shadow:
+            0 0 0 rgba(217, 143, 174, .3);
+
+    }
+
+    50% {
+
+        box-shadow:
+            0 0 35px rgba(217, 143, 174, .7);
+
+    }
+
+    100% {
+
+        box-shadow:
+            0 0 0 rgba(217, 143, 174, .3);
+
+    }
+
+}
+
+/* =========================
+   MUSIC BUTTON PULSE
+========================= */
+
+#musicBtn {
+
+    animation:
+        musicPulse 3s infinite;
+}
+
+@keyframes musicPulse {
+
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.08);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+
+}
+
+/* =========================
+   VIDEO FADE
+========================= */
+
+.video-section video {
+
+    transition:
+        transform .5s ease,
+        box-shadow .5s ease;
+}
+
+.video-section video:hover {
+
+    transform:
+        scale(1.01);
+
+    box-shadow:
+        0 25px 70px rgba(0, 0, 0, .6);
+}
+
+/* =========================
+   LETTER FLOAT
+========================= */
+
+.letter-box {
+
+    transition:
+        transform .4s ease;
+}
+
+.letter-box:hover {
+
+    transform:
+        translateY(-5px);
+}
+
+/* =========================
+   PETALS
+========================= */
+
+.petal {
+
+    position: fixed;
+
+    top: -50px;
+
+    font-size: 24px;
+
+    pointer-events: none;
+
+    z-index: 9999;
+
+    animation-name: fall;
+
+    animation-timing-function: linear;
+
+    animation-fill-mode: forwards;
+}
+
+@keyframes fall {
+
+    0% {
+
+        transform:
+            translateY(-50px) translateX(0) rotate(0deg);
+
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    50% {
+
+        transform:
+            translateY(50vh) translateX(40px) rotate(180deg);
+
+    }
+
+    100% {
+
+        transform:
+            translateY(110vh) translateX(-40px) rotate(360deg);
+
+        opacity: 0;
+    }
+
+}
+
+/* =========================
+   ENDING TEXT CURSOR
+========================= */
+
+#endingText::after {
+
+    content: "|";
+
+    animation:
+        blink .8s infinite;
+}
+
+@keyframes blink {
+
+    50% {
+        opacity: 0;
+    }
+
+}
+
+/* =========================
+   SOFT HERO APPEAR
+========================= */
+
+.hero-content {
+
+    animation:
+        heroAppear 1.8s ease;
+}
+
+@keyframes heroAppear {
+
+    0% {
+
+        opacity: 0;
+
+        transform:
+            translateY(40px);
+
+    }
+
+    100% {
+
+        opacity: 1;
+
+        transform:
+            translateY(0);
+    }
+
+}
+
+/* =========================
+   INTRO APPEAR
+========================= */
+
+.intro-container {
+
+    animation:
+        fadeSoft 1.5s ease;
+}
+
+@keyframes fadeSoft {
+
+    0% {
+
+        opacity: 0;
+
+    }
+
+    100% {
+
+        opacity: 1;
+
+    }
+
+}
+
+/* =========================
+   STORY TEXT GLOW
+========================= */
+
+.story-text {
+
+    animation:
+        storyBreath 6s ease-in-out infinite;
+}
+
+@keyframes storyBreath {
+
+    0% {
+
+        text-shadow:
+            0 3px 15px rgba(0, 0, 0, .6);
+
+    }
+
+    50% {
+
+        text-shadow:
+            0 3px 30px rgba(255, 255, 255, .2);
+
+    }
+
+    100% {
+
+        text-shadow:
+            0 3px 15px rgba(0, 0, 0, .6);
+
+    }
+
+}
